@@ -1,0 +1,37 @@
+{
+  "name": "@findbuddy/web",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "next dev --hostname 127.0.0.1",
+    "build": "next build",
+    "start": "next start --hostname 127.0.0.1",
+    "lint": "cd ../.. && eslint apps/web packages --max-warnings 0",
+    "typecheck": "next typegen && tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@findbuddy/constants": "workspace:*",
+    "@findbuddy/contracts": "workspace:*",
+    "@findbuddy/types": "workspace:*",
+    "@findbuddy/utils": "workspace:*",
+    "@findbuddy/validation": "workspace:*",
+    "lucide-react": "^1.48.0",
+    "next": "16.3.6",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
+    "@findbuddy/config": "workspace:*",
+    "@playwright/test": "^1.56.0",
+    "@tailwindcss/postcss": "4.3.3",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "eslint": "^9.39.0",
+    "tailwindcss": "4.3.3",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.7"
+  }
+}

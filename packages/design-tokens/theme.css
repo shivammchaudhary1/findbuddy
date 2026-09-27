@@ -1,0 +1,51 @@
+:root {
+  color-scheme: dark;
+  --fb-bg-primary: #0a0f1c;
+  --fb-bg-secondary: #111827;
+  --fb-surface: #1a2235;
+  --fb-border: #2a3348;
+  --fb-purple: #7c3aed;
+  --fb-violet: #a855f7;
+  --fb-lavender: #c4b5fd;
+  --fb-text-primary: #f8fafc;
+  --fb-text-secondary: #94a3b8;
+  --fb-success: #22c55e;
+  --fb-space-1: 0.25rem;
+  --fb-space-2: 0.5rem;
+  --fb-space-3: 0.75rem;
+  --fb-space-4: 1rem;
+  --fb-space-5: 1.5rem;
+  --fb-space-6: 2rem;
+  --fb-space-7: 3rem;
+  --fb-space-8: 4.5rem;
+  --fb-radius-sm: 0.5rem;
+  --fb-radius-md: 0.875rem;
+  --fb-radius-lg: 1.5rem;
+  --fb-radius-pill: 999px;
+  --fb-shadow: 0 12px 32px
+    color-mix(in srgb, var(--fb-bg-primary) 70%, transparent);
+  --fb-shadow-brand: 0 6px 24px
+    color-mix(in srgb, var(--fb-purple) 20%, transparent);
+  --fb-gradient: linear-gradient(110deg, var(--fb-purple), var(--fb-violet));
+  --fb-gradient-action: linear-gradient(
+    110deg,
+    var(--fb-purple),
+    color-mix(in srgb, var(--fb-violet) 80%, var(--fb-bg-primary))
+  );
+  --fb-container: 80rem;
+}
+
+@theme inline {
+  --color-background: var(--fb-bg-primary);
+  --color-surface: var(--fb-surface);
+  --color-brand: var(--fb-purple);
+  --color-lavender: var(--fb-lavender);
+  --color-foreground: var(--fb-text-primary);
+  --color-muted: var(--fb-text-secondary);
+  --font-sans: var(--font-inter);
+  --font-heading: var(--font-poppins);
+  --breakpoint-sm: 40rem;
+  --breakpoint-md: 48rem;
+  --breakpoint-lg: 64rem;
+  --breakpoint-xl: 80rem;
+}
