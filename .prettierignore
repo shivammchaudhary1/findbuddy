@@ -1,0 +1,13 @@
+node_modules
+**/next-env.d.ts
+.next
+.turbo
+pnpm-lock.yaml
+.qa
+test-results
+playwright-report
+# Approved source documents are preserved verbatim.
+/CODEX_INSTRUCTIONS*.md
+/FindBuddy_*.md
+/folder-structure.md
+/img-referance

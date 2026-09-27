@@ -1,0 +1,1020 @@
+{
+  "site": {
+    "name": "FindBuddy",
+    "tagline": "Real people. Real plans. More fun together.",
+    "business": "The Logic Machines",
+    "heroTitle": "Find your kind of people.",
+    "heroDescription": "Plan activities, join events, or find a buddy for something you love. Good company makes every plan better.",
+    "heroImage": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1800&q=85",
+    "heroImageAlt": "Friends spending time together outdoors",
+    "city": "Mumbai",
+    "demoNotice": "Preview experience · Sample profiles and plans. Actions stay in this browser session.",
+    "safetyNote": "Verification, ratings, and Trust Scores are helpful signals, not a guarantee of safety. Choose a public place and use your own judgment.",
+    "proPrice": 299,
+    "proBenefits": [
+      "Per-hour service pricing",
+      "Service pricing above ₹500",
+      "Aadhaar verification eligibility",
+      "Verified badge after verification",
+      "Better profile visibility",
+      "Advanced filters",
+      "Priority requests",
+      "Detailed Trust Score",
+      "Verified-only matching",
+      "Additional safety options",
+      "Priority support"
+    ],
+    "howItWorks": [
+      {
+        "title": "Find your people",
+        "description": "Explore activities and find someone who shares your interests."
+      },
+      {
+        "title": "Make a plan",
+        "description": "Send a request or join a plan. Agree on the details together."
+      },
+      {
+        "title": "Meet. Connect. Repeat.",
+        "description": "Enjoy the activity, share a review, and build real connections."
+      }
+    ],
+    "home": {
+      "heroEyebrow": "Good plans. Better company.",
+      "heroLead": "Find your kind",
+      "heroTail": "of",
+      "heroAccent": "people.",
+      "heroNote": "Real people. Shared interests.",
+      "heroNoteSub": "A little more life, together.",
+      "activitiesTitle": "What are you up for?",
+      "activitiesDescription": "A familiar favourite or something completely new.",
+      "buddiesTitle": "Good company starts here",
+      "buddiesDescription": "Discover buddies who share your interests.",
+      "plansTitle": "A plan worth stepping out for",
+      "plansDescription": "Join a small group. Make a new memory.",
+      "safetyEyebrow": "A little trust goes a long way",
+      "safetyTitle": "Meet with more confidence.",
+      "safetyDescription": "Look for identity verification, honest reviews, and a Trust Score built on real activity.",
+      "howTitle": "From “maybe” to “let's go.”",
+      "howDescription": "Your next good day is only a few steps away.",
+      "proTitle": "More possibilities.",
+      "proSubtitle": "Same you.",
+      "proDescription": "Extra ways to connect, offer activities, and build trust.",
+      "ctaEyebrow": "Make time for connection",
+      "ctaTitle": "Your next favourite memory",
+      "ctaSubtitle": "starts with a hello.",
+      "valueItems": [
+        {
+          "title": "Verified profiles",
+          "description": "Connect with confidence"
+        },
+        {
+          "title": "Real connections",
+          "description": "More than just a screen"
+        },
+        {
+          "title": "Shared interests",
+          "description": "Find your kind of thing"
+        },
+        {
+          "title": "Plans for everyone",
+          "description": "Make room for more fun"
+        }
+      ]
+    }
+  },
+  "navigation": {
+    "main": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Explore",
+        "href": "/explore"
+      },
+      {
+        "label": "Plans",
+        "href": "/plans"
+      },
+      {
+        "label": "How it works",
+        "href": "/#how-it-works"
+      }
+    ],
+    "account": [
+      {
+        "label": "My profile",
+        "href": "/profile"
+      },
+      {
+        "label": "My services",
+        "href": "/profile/services"
+      },
+      {
+        "label": "My plans",
+        "href": "/profile/plans"
+      },
+      {
+        "label": "My bookings",
+        "href": "/profile/bookings"
+      },
+      {
+        "label": "Messages",
+        "href": "/messages"
+      },
+      {
+        "label": "Subscription",
+        "href": "/profile/subscription"
+      }
+    ],
+    "admin": [
+      {
+        "label": "Users",
+        "href": "/admin/users"
+      },
+      {
+        "label": "Services",
+        "href": "/admin/services"
+      },
+      {
+        "label": "Plans",
+        "href": "/admin/plans"
+      },
+      {
+        "label": "Bookings",
+        "href": "/admin/bookings"
+      },
+      {
+        "label": "Reports",
+        "href": "/admin/reports"
+      },
+      {
+        "label": "Verifications",
+        "href": "/admin/verifications"
+      },
+      {
+        "label": "Trust",
+        "href": "/admin/trust"
+      },
+      {
+        "label": "Subscriptions",
+        "href": "/admin/subscriptions"
+      }
+    ]
+  },
+  "currentUser": {
+    "userId": "arjun"
+  },
+  "users": [
+    {
+      "_id": "riya",
+      "email": "riya@example.com",
+      "accountRole": "USER",
+      "accountStatus": "ACTIVE"
+    },
+    {
+      "_id": "arjun",
+      "email": "arjun@example.com",
+      "accountRole": "USER",
+      "accountStatus": "ACTIVE"
+    },
+    {
+      "_id": "sneha",
+      "email": "sneha@example.com",
+      "accountRole": "USER",
+      "accountStatus": "ACTIVE"
+    },
+    {
+      "_id": "karan",
+      "email": "karan@example.com",
+      "accountRole": "USER",
+      "accountStatus": "ACTIVE"
+    },
+    {
+      "_id": "priya",
+      "email": "priya@example.com",
+      "accountRole": "USER",
+      "accountStatus": "ACTIVE"
+    },
+    {
+      "_id": "vikram",
+      "email": "vikram@example.com",
+      "accountRole": "USER",
+      "accountStatus": "ACTIVE"
+    },
+    {
+      "_id": "admin-preview",
+      "email": "admin@example.com",
+      "accountRole": "ADMIN",
+      "accountStatus": "ACTIVE"
+    }
+  ],
+  "profiles": [
+    {
+      "_id": "profile-riya",
+      "userId": "riya",
+      "name": "Riya S.",
+      "age": 24,
+      "city": "Mumbai",
+      "pincode": "400050",
+      "gender": "WOMAN",
+      "bio": "A good conversation, a new café, and a little spontaneity. I love exploring Mumbai and meeting people who are curious about the world.",
+      "interests": ["Coffee", "Shopping", "Travel"],
+      "languages": ["English", "Hindi", "Marathi"],
+      "intent": "BOTH",
+      "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=85",
+      "averageRating": 4.8,
+      "ratingCount": 28,
+      "isIdentityVerified": true,
+      "womenOnlyVisibility": false
+    },
+    {
+      "_id": "profile-arjun",
+      "userId": "arjun",
+      "name": "Arjun Mehta",
+      "age": 27,
+      "city": "Mumbai",
+      "pincode": "400050",
+      "gender": "MAN",
+      "bio": "Early morning workouts, weekend football, and a good movie. Always up for trying something new together.",
+      "interests": ["Gym", "Movies", "Travel"],
+      "languages": ["English", "Hindi"],
+      "intent": "BOTH",
+      "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=85",
+      "averageRating": 4.6,
+      "ratingCount": 19,
+      "isIdentityVerified": false,
+      "womenOnlyVisibility": false
+    },
+    {
+      "_id": "profile-sneha",
+      "userId": "sneha",
+      "name": "Sneha P.",
+      "age": 25,
+      "city": "Mumbai",
+      "pincode": "400050",
+      "gender": "WOMAN",
+      "bio": "Finding stories in little places. Let's explore a new neighbourhood or head out for a photo walk.",
+      "interests": ["Travel", "Photography", "Events"],
+      "languages": ["English", "Hindi"],
+      "intent": "BOTH",
+      "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=85",
+      "averageRating": 4.9,
+      "ratingCount": 32,
+      "isIdentityVerified": true,
+      "womenOnlyVisibility": false
+    },
+    {
+      "_id": "profile-karan",
+      "userId": "karan",
+      "name": "Karan M.",
+      "age": 29,
+      "city": "Mumbai",
+      "pincode": "400050",
+      "gender": "MAN",
+      "bio": "A weekend explorer with a camera and a list of trails. Happy to share the journey.",
+      "interests": ["Travel", "Photography", "Coffee"],
+      "languages": ["English", "Hindi", "Marathi"],
+      "intent": "BOTH",
+      "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=800&q=85",
+      "averageRating": 4.5,
+      "ratingCount": 16,
+      "isIdentityVerified": true,
+      "womenOnlyVisibility": false
+    },
+    {
+      "_id": "profile-priya",
+      "userId": "priya",
+      "name": "Priya R.",
+      "age": 26,
+      "city": "Mumbai",
+      "pincode": "400050",
+      "gender": "WOMAN",
+      "bio": "Movie nights, live music, and café conversations. The best plans start with good company.",
+      "interests": ["Movies", "Coffee", "Events"],
+      "languages": ["English", "Hindi"],
+      "intent": "BOTH",
+      "image": "https://images.unsplash.com/photo-1524250502761-1ac6f2e30d43?auto=format&fit=crop&w=800&q=85",
+      "averageRating": 4.7,
+      "ratingCount": 21,
+      "isIdentityVerified": true,
+      "womenOnlyVisibility": false
+    },
+    {
+      "_id": "profile-vikram",
+      "userId": "vikram",
+      "name": "Vikram S.",
+      "age": 28,
+      "city": "Mumbai",
+      "pincode": "400050",
+      "gender": "MAN",
+      "bio": "New to FindBuddy. Looking forward to weekend hikes, games, and meeting people with similar interests.",
+      "interests": ["Travel", "Gym", "Gaming"],
+      "languages": ["English", "Hindi"],
+      "intent": "BOTH",
+      "image": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=800&q=85",
+      "averageRating": 0,
+      "ratingCount": 0,
+      "isIdentityVerified": false,
+      "womenOnlyVisibility": false
+    }
+  ],
+  "categories": [
+    {
+      "id": "TRAVEL_BUDDY",
+      "name": "Travel",
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1000&q=85"
+    },
+    {
+      "id": "GYM_BUDDY",
+      "name": "Gym",
+      "image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1000&q=85"
+    },
+    {
+      "id": "COFFEE_BUDDY",
+      "name": "Coffee",
+      "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=1000&q=85"
+    },
+    {
+      "id": "MOVIE_PARTNER",
+      "name": "Movies",
+      "image": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1000&q=85"
+    },
+    {
+      "id": "SHOPPING_BUDDY",
+      "name": "Shopping",
+      "image": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1000&q=85"
+    },
+    {
+      "id": "EVENT_BUDDY",
+      "name": "Events",
+      "image": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1000&q=85"
+    },
+    {
+      "id": "CLUB_BUDDY",
+      "name": "Club",
+      "image": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1000&q=85"
+    },
+    {
+      "id": "ONLY_LISTENING",
+      "name": "Only listening",
+      "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=1000&q=85"
+    },
+    {
+      "id": "GAMING_BUDDY",
+      "name": "Gaming",
+      "image": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1000&q=85"
+    },
+    {
+      "id": "CUSTOM",
+      "name": "Custom",
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1000&q=85"
+    }
+  ],
+  "services": [
+    {
+      "_id": "coffee-riya",
+      "providerId": "riya",
+      "category": "COFFEE_BUDDY",
+      "title": "Coffee & a good conversation",
+      "description": "Explore a cosy café in Bandra, share stories, and make an ordinary afternoon a little more memorable.",
+      "price": 300,
+      "pricingType": "PER_SESSION",
+      "city": "Mumbai",
+      "pincode": "400050",
+      "locationText": "Bandra, Mumbai",
+      "availability": [
+        {
+          "dayOfWeek": 6,
+          "startTime": "09:00",
+          "endTime": "20:00"
+        },
+        {
+          "dayOfWeek": 0,
+          "startTime": "09:00",
+          "endTime": "20:00"
+        }
+      ],
+      "status": "ACTIVE",
+      "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=1000&q=85"
+    },
+    {
+      "_id": "gym-arjun",
+      "providerId": "arjun",
+      "category": "GYM_BUDDY",
+      "title": "Your next workout buddy",
+      "description": "Show up, stay consistent, and enjoy your workout with a little friendly encouragement.",
+      "price": 350,
+      "pricingType": "PER_SESSION",
+      "city": "Mumbai",
+      "pincode": "400050",
+      "locationText": "Bandra, Mumbai",
+      "availability": [
+        {
+          "dayOfWeek": 6,
+          "startTime": "09:00",
+          "endTime": "20:00"
+        },
+        {
+          "dayOfWeek": 0,
+          "startTime": "09:00",
+          "endTime": "20:00"
+        }
+      ],
+      "status": "ACTIVE",
+      "image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1000&q=85"
+    },
+    {
+      "_id": "walk-sneha",
+      "providerId": "sneha",
+      "category": "TRAVEL_BUDDY",
+      "title": "A photo walk around Mumbai",
+      "description": "Explore the city's quiet corners and discover a new perspective together.",
+      "price": 400,
+      "pricingType": "PER_SESSION",
+      "city": "Mumbai",
+      "pincode": "400050",
+      "locationText": "Bandra, Mumbai",
+      "availability": [
+        {
+          "dayOfWeek": 6,
+          "startTime": "09:00",
+          "endTime": "20:00"
+        },
+        {
+          "dayOfWeek": 0,
+          "startTime": "09:00",
+          "endTime": "20:00"
+        }
+      ],
+      "status": "ACTIVE",
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1000&q=85"
+    },
+    {
+      "_id": "trip-karan",
+      "providerId": "karan",
+      "category": "TRAVEL_BUDDY",
+      "title": "Weekend trail companion",
+      "description": "Fresh air, scenic trails, and great company on a day outdoors.",
+      "price": 500,
+      "pricingType": "PER_SESSION",
+      "city": "Mumbai",
+      "pincode": "400050",
+      "locationText": "Bandra, Mumbai",
+      "availability": [
+        {
+          "dayOfWeek": 6,
+          "startTime": "09:00",
+          "endTime": "20:00"
+        },
+        {
+          "dayOfWeek": 0,
+          "startTime": "09:00",
+          "endTime": "20:00"
+        }
+      ],
+      "status": "ACTIVE",
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1000&q=85"
+    },
+    {
+      "_id": "movie-priya",
+      "providerId": "priya",
+      "category": "MOVIE_PARTNER",
+      "title": "Let's catch a movie",
+      "description": "Pick a movie, grab some popcorn, and talk about it over a coffee afterwards. Cinema tickets are separate.",
+      "price": 350,
+      "pricingType": "PER_SESSION",
+      "city": "Mumbai",
+      "pincode": "400050",
+      "locationText": "Bandra, Mumbai",
+      "availability": [
+        {
+          "dayOfWeek": 6,
+          "startTime": "09:00",
+          "endTime": "20:00"
+        },
+        {
+          "dayOfWeek": 0,
+          "startTime": "09:00",
+          "endTime": "20:00"
+        }
+      ],
+      "status": "ACTIVE",
+      "image": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1000&q=85"
+    },
+    {
+      "_id": "gaming-vikram",
+      "providerId": "vikram",
+      "category": "GAMING_BUDDY",
+      "title": "A relaxed gaming afternoon",
+      "description": "Connect over a favourite game and a relaxed afternoon.",
+      "price": 0,
+      "pricingType": "FREE",
+      "city": "Mumbai",
+      "pincode": "400050",
+      "locationText": "Bandra, Mumbai",
+      "availability": [
+        {
+          "dayOfWeek": 6,
+          "startTime": "09:00",
+          "endTime": "20:00"
+        },
+        {
+          "dayOfWeek": 0,
+          "startTime": "09:00",
+          "endTime": "20:00"
+        }
+      ],
+      "status": "ACTIVE",
+      "image": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1000&q=85"
+    },
+    {
+      "_id": "shopping-riya",
+      "providerId": "riya",
+      "category": "SHOPPING_BUDDY",
+      "title": "A little weekend shopping",
+      "description": "Browse local markets and find something you love with a second opinion.",
+      "price": 400,
+      "pricingType": "PER_SESSION",
+      "city": "Mumbai",
+      "pincode": "400050",
+      "locationText": "Bandra, Mumbai",
+      "availability": [
+        {
+          "dayOfWeek": 6,
+          "startTime": "09:00",
+          "endTime": "20:00"
+        },
+        {
+          "dayOfWeek": 0,
+          "startTime": "09:00",
+          "endTime": "20:00"
+        }
+      ],
+      "status": "ACTIVE",
+      "image": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1000&q=85"
+    },
+    {
+      "_id": "events-priya",
+      "providerId": "priya",
+      "category": "EVENT_BUDDY",
+      "title": "Live music together",
+      "description": "Enjoy a live music event together. Venue tickets are separate.",
+      "price": 600,
+      "pricingType": "PER_SESSION",
+      "city": "Mumbai",
+      "pincode": "400050",
+      "locationText": "Bandra, Mumbai",
+      "availability": [
+        {
+          "dayOfWeek": 6,
+          "startTime": "09:00",
+          "endTime": "20:00"
+        },
+        {
+          "dayOfWeek": 0,
+          "startTime": "09:00",
+          "endTime": "20:00"
+        }
+      ],
+      "status": "ACTIVE",
+      "image": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1000&q=85"
+    }
+  ],
+  "plans": [
+    {
+      "_id": "weekend-coffee",
+      "creatorId": "riya",
+      "title": "Weekend Coffee Meet",
+      "description": "A small table, good coffee, and new conversations. Come as you are. Everyone covers their own café order.",
+      "date": "2026-10-03T11:30:00Z",
+      "locationText": "Bandra, Mumbai",
+      "peopleRequired": 5,
+      "pricingType": "FREE",
+      "price": 0,
+      "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=1000&q=85",
+      "status": "PUBLISHED",
+      "city": "Mumbai"
+    },
+    {
+      "_id": "movie-night",
+      "creatorId": "karan",
+      "title": "Saturday Movie Night",
+      "description": "An evening at the movies with a small group. We'll choose a film together; purchase your own cinema ticket.",
+      "date": "2026-10-03T14:30:00Z",
+      "locationText": "PVR, Andheri",
+      "peopleRequired": 6,
+      "pricingType": "FREE",
+      "price": 0,
+      "image": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1000&q=85",
+      "status": "PUBLISHED",
+      "city": "Mumbai"
+    },
+    {
+      "_id": "sunday-football",
+      "creatorId": "arjun",
+      "title": "Sunday Football",
+      "description": "A friendly game to start your Sunday. All experience levels welcome. Activity fee contributes to the turf booking.",
+      "date": "2026-10-04T01:30:00Z",
+      "locationText": "Juhu, Mumbai",
+      "peopleRequired": 10,
+      "pricingType": "PAID",
+      "price": 200,
+      "image": "https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=1000&q=85",
+      "status": "PUBLISHED",
+      "city": "Mumbai"
+    },
+    {
+      "_id": "lonavala",
+      "creatorId": "sneha",
+      "title": "Lonavala Day Trip",
+      "description": "Spend a day in the hills, take in the views, and meet fellow travellers. Arrange your own transport and meals.",
+      "date": "2026-10-11T00:30:00Z",
+      "locationText": "Lonavala",
+      "peopleRequired": 6,
+      "pricingType": "FREE",
+      "price": 0,
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1000&q=85",
+      "status": "PUBLISHED",
+      "city": "Mumbai"
+    },
+    {
+      "_id": "past-coffee",
+      "creatorId": "arjun",
+      "title": "Sunday Café Catch-up",
+      "description": "A relaxed café catch-up in Bandra.",
+      "date": "2026-09-20T10:30:00Z",
+      "locationText": "Bandra, Mumbai",
+      "peopleRequired": 4,
+      "pricingType": "FREE",
+      "price": 0,
+      "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=1000&q=85",
+      "status": "COMPLETED",
+      "city": "Mumbai"
+    }
+  ],
+  "planJoinRequests": [
+    {
+      "_id": "join-0",
+      "planId": "weekend-coffee",
+      "requesterId": "arjun",
+      "status": "ACCEPTED"
+    },
+    {
+      "_id": "join-1",
+      "planId": "weekend-coffee",
+      "requesterId": "sneha",
+      "status": "ACCEPTED"
+    },
+    {
+      "_id": "join-2",
+      "planId": "movie-night",
+      "requesterId": "riya",
+      "status": "ACCEPTED"
+    },
+    {
+      "_id": "join-3",
+      "planId": "movie-night",
+      "requesterId": "priya",
+      "status": "ACCEPTED"
+    },
+    {
+      "_id": "join-4",
+      "planId": "lonavala",
+      "requesterId": "karan",
+      "status": "ACCEPTED"
+    },
+    {
+      "_id": "join-5",
+      "planId": "sunday-football",
+      "requesterId": "karan",
+      "status": "ACCEPTED"
+    },
+    {
+      "_id": "join-6",
+      "planId": "sunday-football",
+      "requesterId": "vikram",
+      "status": "ACCEPTED"
+    },
+    {
+      "_id": "join-pending",
+      "planId": "sunday-football",
+      "requesterId": "vikram",
+      "status": "PENDING"
+    }
+  ],
+  "bookings": [
+    {
+      "_id": "booking-1",
+      "serviceId": "coffee-riya",
+      "providerId": "riya",
+      "consumerId": "arjun",
+      "scheduledAt": "2026-10-03T11:30:00Z",
+      "status": "REQUESTED",
+      "serviceSnapshot": {
+        "title": "Coffee & a good conversation",
+        "category": "COFFEE_BUDDY",
+        "pricingType": "PER_SESSION",
+        "price": 300
+      },
+      "paymentRequired": true,
+      "paymentStatus": "PENDING",
+      "locationText": "Bandra, Mumbai"
+    },
+    {
+      "_id": "booking-2",
+      "serviceId": "gym-arjun",
+      "providerId": "arjun",
+      "consumerId": "riya",
+      "scheduledAt": "2026-10-04T11:30:00Z",
+      "status": "ACCEPTED",
+      "serviceSnapshot": {
+        "title": "Your next workout buddy",
+        "category": "GYM_BUDDY",
+        "pricingType": "PER_SESSION",
+        "price": 350
+      },
+      "paymentRequired": true,
+      "paymentStatus": "PENDING",
+      "locationText": "Bandra, Mumbai"
+    },
+    {
+      "_id": "booking-3",
+      "serviceId": "walk-sneha",
+      "providerId": "sneha",
+      "consumerId": "arjun",
+      "scheduledAt": "2026-09-20T11:30:00Z",
+      "status": "COMPLETED",
+      "serviceSnapshot": {
+        "title": "A photo walk around Mumbai",
+        "category": "TRAVEL_BUDDY",
+        "pricingType": "PER_SESSION",
+        "price": 400
+      },
+      "paymentRequired": true,
+      "paymentStatus": "PAID",
+      "locationText": "Bandra, Mumbai"
+    },
+    {
+      "_id": "booking-4",
+      "serviceId": "trip-karan",
+      "providerId": "karan",
+      "consumerId": "arjun",
+      "scheduledAt": "2026-10-06T11:30:00Z",
+      "status": "REJECTED",
+      "serviceSnapshot": {
+        "title": "Weekend trail companion",
+        "category": "TRAVEL_BUDDY",
+        "pricingType": "PER_SESSION",
+        "price": 500
+      },
+      "paymentRequired": true,
+      "paymentStatus": "PENDING",
+      "locationText": "Bandra, Mumbai"
+    },
+    {
+      "_id": "booking-5",
+      "serviceId": "movie-priya",
+      "providerId": "priya",
+      "consumerId": "arjun",
+      "scheduledAt": "2026-10-07T11:30:00Z",
+      "status": "CANCELLED",
+      "serviceSnapshot": {
+        "title": "Let's catch a movie",
+        "category": "MOVIE_PARTNER",
+        "pricingType": "PER_SESSION",
+        "price": 350
+      },
+      "paymentRequired": true,
+      "paymentStatus": "PENDING",
+      "locationText": "Bandra, Mumbai"
+    },
+    {
+      "_id": "booking-6",
+      "serviceId": "gym-arjun",
+      "providerId": "arjun",
+      "consumerId": "priya",
+      "scheduledAt": "2026-09-19T04:30:00Z",
+      "status": "COMPLETED",
+      "serviceSnapshot": {
+        "title": "Your next workout buddy",
+        "category": "GYM_BUDDY",
+        "pricingType": "PER_SESSION",
+        "price": 350
+      },
+      "paymentRequired": true,
+      "paymentStatus": "PAID",
+      "locationText": "Bandra, Mumbai"
+    }
+  ],
+  "reviews": [
+    {
+      "_id": "review-1",
+      "bookingId": "booking-3",
+      "reviewerId": "arjun",
+      "revieweeId": "sneha",
+      "overallRating": 5,
+      "behaviourRating": 5,
+      "punctualityRating": 5,
+      "profileAccuracyRating": 5,
+      "wouldBookAgain": true,
+      "comment": "A lovely walk and a great conversation. The meeting spot was easy to find.",
+      "status": "ACTIVE",
+      "createdAt": "2026-09-21T12:00:00Z"
+    }
+  ],
+  "trustScores": [
+    {
+      "userId": "riya",
+      "computedScore": 87,
+      "manualAdjustment": 0,
+      "finalScore": 87,
+      "completedBookings": 18,
+      "repeatBookings": 6,
+      "recommendation": "RECOMMENDED",
+      "reasons": ["Positive ratings", "Strong completed booking history"]
+    },
+    {
+      "userId": "arjun",
+      "computedScore": 76,
+      "manualAdjustment": 0,
+      "finalScore": 76,
+      "completedBookings": 12,
+      "repeatBookings": 3,
+      "recommendation": "RECOMMENDED",
+      "reasons": ["Positive ratings", "Strong completed booking history"]
+    },
+    {
+      "userId": "sneha",
+      "computedScore": 91,
+      "manualAdjustment": 0,
+      "finalScore": 91,
+      "completedBookings": 24,
+      "repeatBookings": 8,
+      "recommendation": "RECOMMENDED",
+      "reasons": ["Positive ratings", "Strong completed booking history"]
+    },
+    {
+      "userId": "karan",
+      "computedScore": 82,
+      "manualAdjustment": 0,
+      "finalScore": 82,
+      "completedBookings": 14,
+      "repeatBookings": 4,
+      "recommendation": "RECOMMENDED",
+      "reasons": ["Positive ratings", "Strong completed booking history"]
+    },
+    {
+      "userId": "priya",
+      "computedScore": 85,
+      "manualAdjustment": 0,
+      "finalScore": 85,
+      "completedBookings": 16,
+      "repeatBookings": 5,
+      "recommendation": "RECOMMENDED",
+      "reasons": ["Positive ratings", "Strong completed booking history"]
+    },
+    {
+      "userId": "vikram",
+      "computedScore": 50,
+      "manualAdjustment": 0,
+      "finalScore": 50,
+      "completedBookings": 0,
+      "repeatBookings": 0,
+      "recommendation": "PROCEED_WITH_CAUTION",
+      "reasons": ["New profile", "Limited booking history"]
+    }
+  ],
+  "subscriptions": [
+    {
+      "_id": "sub-riya",
+      "userId": "riya",
+      "planCode": "PRO_MONTHLY_299",
+      "amount": 299,
+      "currency": "INR",
+      "status": "ACTIVE",
+      "currentPeriodEnd": "2026-12-01T00:00:00Z"
+    },
+    {
+      "_id": "sub-sneha",
+      "userId": "sneha",
+      "planCode": "PRO_MONTHLY_299",
+      "amount": 299,
+      "currency": "INR",
+      "status": "ACTIVE",
+      "currentPeriodEnd": "2026-12-01T00:00:00Z"
+    },
+    {
+      "_id": "sub-karan",
+      "userId": "karan",
+      "planCode": "PRO_MONTHLY_299",
+      "amount": 299,
+      "currency": "INR",
+      "status": "ACTIVE",
+      "currentPeriodEnd": "2026-12-01T00:00:00Z"
+    },
+    {
+      "_id": "sub-priya",
+      "userId": "priya",
+      "planCode": "PRO_MONTHLY_299",
+      "amount": 299,
+      "currency": "INR",
+      "status": "ACTIVE",
+      "currentPeriodEnd": "2026-12-01T00:00:00Z"
+    }
+  ],
+  "conversations": [
+    {
+      "_id": "chat-riya",
+      "type": "BOOKING",
+      "referenceId": "booking-1",
+      "participantIds": ["arjun", "riya"]
+    },
+    {
+      "_id": "chat-sneha",
+      "type": "BOOKING",
+      "referenceId": "booking-3",
+      "participantIds": ["arjun", "sneha"]
+    }
+  ],
+  "messages": [
+    {
+      "_id": "message-0",
+      "conversationId": "chat-riya",
+      "senderId": "riya",
+      "text": "Hey! Thanks for the request. ☺",
+      "createdAt": "2026-09-27T10:32:00Z",
+      "type": "TEXT"
+    },
+    {
+      "_id": "message-1",
+      "conversationId": "chat-riya",
+      "senderId": "arjun",
+      "text": "Hi! Looking forward to meeting for coffee.",
+      "createdAt": "2026-09-27T10:33:00Z",
+      "type": "TEXT"
+    },
+    {
+      "_id": "message-2",
+      "conversationId": "chat-riya",
+      "senderId": "riya",
+      "text": "Same here! Let's confirm the café once the booking is accepted.",
+      "createdAt": "2026-09-27T10:35:00Z",
+      "type": "TEXT"
+    },
+    {
+      "_id": "message-3",
+      "conversationId": "chat-riya",
+      "senderId": "arjun",
+      "text": "Sounds good. See you then!",
+      "createdAt": "2026-09-27T10:36:00Z",
+      "type": "TEXT"
+    },
+    {
+      "_id": "message-4",
+      "conversationId": "chat-sneha",
+      "senderId": "sneha",
+      "text": "Thanks for joining the photo walk!",
+      "createdAt": "2026-09-26T09:00:00Z",
+      "type": "TEXT"
+    }
+  ],
+  "notifications": [
+    {
+      "_id": "notification-1",
+      "userId": "arjun",
+      "title": "Your coffee request",
+      "body": "Your request is waiting for a response.",
+      "href": "/bookings/booking-1",
+      "read": false
+    }
+  ],
+  "reports": [
+    {
+      "_id": "report-1",
+      "reporterId": "arjun",
+      "reportedUserId": "karan",
+      "category": "Profile accuracy",
+      "description": "Please review the listed meeting location.",
+      "severity": "LOW",
+      "status": "OPEN"
+    }
+  ],
+  "verificationRequests": [
+    {
+      "_id": "verification-1",
+      "userId": "riya",
+      "status": "VERIFIED"
+    },
+    {
+      "_id": "verification-2",
+      "userId": "priya",
+      "status": "VERIFIED"
+    }
+  ],
+  "trustedContacts": [],
+  "safetyEvents": [],
+  "blocks": [],
+  "trustScoreEvents": [],
+  "adminAuditLogs": []
+}
