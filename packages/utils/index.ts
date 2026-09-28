@@ -1,5 +1,9 @@
 import type { BuddyService, Subscription, TrustScore } from "@findbuddy/types";
-import { FREE_SERVICE_LIMIT } from "@findbuddy/constants";
+import { hasActiveProEntitlement, validateServicePricing } from "./domain";
+
+export * from "./domain";
+export * from "./public-dto";
+
 export function currency(amount: number): string {
   return new Intl.NumberFormat("en-IN", {
     style: "currency",
@@ -18,24 +22,20 @@ export function isPro(
   subscription: Subscription | undefined,
   now: Date = new Date(),
 ): boolean {
-  return (
-    subscription?.status === "ACTIVE" &&
-    new Date(subscription.currentPeriodEnd) > now
-  );
+  return hasActiveProEntitlement(subscription, now);
 }
 export function pricingError(
   pricingType: BuddyService["pricingType"],
   price: number,
   pro: boolean,
 ): string | undefined {
-  if (!Number.isFinite(price) || price < 0)
-    return "Enter a valid, non-negative activity fee.";
-  if (pricingType === "FREE" && price !== 0)
-    return "Free activities must have a zero fee.";
-  if (!pro && pricingType === "PER_HOUR")
-    return "Per-hour pricing is available with Pro.";
-  if (!pro && price > FREE_SERVICE_LIMIT)
-    return "Free members can set an activity fee up to ₹500.";
+  const result = validateServicePricing({
+    isPro: pro,
+    pricingType,
+    price,
+  });
+
+  return result.valid ? undefined : result.message;
 }
 export function recommendationLabel(
   state: TrustScore["recommendation"],
