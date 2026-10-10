@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "exports": "./index.ts",
   "dependencies": {
+    "@findbuddy/contracts": "workspace:*",
     "@findbuddy/types": "workspace:*",
     "@findbuddy/constants": "workspace:*"
   }

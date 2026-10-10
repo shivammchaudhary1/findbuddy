@@ -1,21 +1,3 @@
-import type { z } from "zod";
-import type { websiteSchema } from "@findbuddy/validation";
-export type WebsiteData = z.infer<typeof websiteSchema>;
-export type Profile = WebsiteData["profiles"][number];
-export type BuddyService = WebsiteData["services"][number];
-export type Plan = WebsiteData["plans"][number];
-export type Booking = WebsiteData["bookings"][number];
-export type TrustScore = WebsiteData["trustScores"][number];
-export type Subscription = WebsiteData["subscriptions"][number];
-export type Message = WebsiteData["messages"][number];
-export type Conversation = WebsiteData["conversations"][number];
-export type ServiceFilters = {
-  search?: string;
-  category?: string;
-  city?: string;
-  maxPrice?: number;
-  minRating?: number;
-  verifiedOnly?: boolean;
-  minTrust?: number;
-  dayOfWeek?: number;
-};
+export * from "./auth";
+export * from "./domain";
+export * from "./website-data";
